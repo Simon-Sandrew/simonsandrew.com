@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+
+body{
+    background: linear-gradient(#0B132B, #1C2541);
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin-top: 0;
+    margin-left:0;
+    font-family: Montserrat;
+    display: inline-block;
+
+    
+    
+}
+
+.title_text{
+    position: relative;
+    text-align: center;
+    top: 42.5vh;
+}
+  
+.description{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F0F0C9;
+    font-family: Montserrat;
+
+
+}
+
+.models{
+    position: absolute;
+    
+
+
+
+
+
+}
+
+.digital_design{
+    z-index: 2;
+    top: 50px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    border: 0px;
+    box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+}
+.programming{
+    z-index: 2;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    border: 0px;
+
+
+    box-shadow: 0 0px 80px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+}
+.digital_design:hover{
+    z-index: 1;
+    box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
+    transition-duration: 0.25s;
+
+
+}
+
+.programming:hover{
+    z-index: 1;
+    box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
+    transition-duration: 0.25s;
+    
+
+
+}
+
+.buttons_{
+    position: relative;
+    left: 50%;
+    top:50vh
+
+
+}
+
+
