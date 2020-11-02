@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+#particles-js{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: 1;
+
+} 
+
+h1{
+    font-family: Montserrat;
+    color: #F0F0C9;
+    z-index: 4;
+}
+  
+body{
+    margin-top: 0px;
+    margin-left: 0px;
+    font-family: Montserrat;
+    background: linear-gradient(#0B132B, #0B132B);
+    overflow-x: hidden;
+
+
+
+}
+
+
+
+::-webkit-scrollbar {
+    width: 0px;
+    background: transparent; 
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    scroll-snap-align: center;
+  }
+
+.go_home{
+    position: fixed;
+    z-index: 6;
+    left:87%;
+    top:3%;
+    
+    transform: translate(50%);
+
+    font-size: 1vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+ 
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    border: 0px;
+
+
+}
+
+.Contact{
+
+    position: fixed;
+    z-index: 6;
+    left:87%;
+    top:9%;
+    transform: translate(50%);
+    font-size: 1.0vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    padding-right: 17px;
+    border: 0px;
+}
+.Contact:hover{
+    z-index: 3;
+    box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
+    transition-duration: 0.25s;
+
+}
+.go_home:hover{
+    z-index: 3;
+    box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
+    transition-duration: 0.25s;
+}
+
+.title{
+    position: absolute;
+    z-index: 3;
+
+}
+
+.t_joke{
+    position: absolute;
+    top: 80%;
+    right: 50%;
+    transform:translate(50%);
+
+}
+
+.t_desc{
+    position: absolute;
+    top: 220%;
+    right: 50%;
+    transform:translate(50%);
+
+
+}
+section#main{
+    background: linear-gradient(#0B132B,#1C2541);
+
+
+}
