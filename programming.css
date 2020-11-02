@@ -512,7 +512,7 @@ section#p3{
 
 }
 .r_method{
-
+    z-index: 3;
     position: absolute;
     font-size: 1vw;
     transform: translate(-50%, -50%);
@@ -709,6 +709,7 @@ section#p4{
 }
 
 .cn_desc{
+    z-index: 4;
     position: relative;
     color: #F0F0C9;
     top: -4vh;
