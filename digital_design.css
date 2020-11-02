@@ -12,6 +12,15 @@ h1{
     color: #F0F0C9;
     z-index: 4;
 }
+
+h5{
+    font-family: Montserrat;
+    color: #F0F0C9;
+    z-index: 4;
+    font-size: 3vw;
+
+
+}
   
 body{
     margin-top: 0px;
@@ -118,4 +127,186 @@ section#main{
     background: linear-gradient(#0B132B,#1C2541);
 
 
+}
+
+section#p1{
+    position: relative;
+    background: linear-gradient(#1C2541,#0B132B)
+
+
+}
+.db9k{
+    position: relative;
+    z-index: 4;
+    top: -10%;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
+
+}
+
+section#p2{
+    position: relative;
+    background: linear-gradient(#0B132B,#1C2541)
+
+
+}
+
+.eqax{
+    position: relative;
+    z-index: 4;
+
+}
+
+.ps_logo1{
+    top:83%;
+    z-index: 4;
+    width: 69px;
+    position: absolute;
+    left: 46%;
+    
+
+
+
+}
+.ill_logo1{
+    top:83%;
+   
+    right: 46%;
+    z-index: 4;
+    width: 70px;
+    position: absolute;
+
+}
+
+
+.logosp2{
+    z-index: 4;
+    top: -8%;
+    justify-content: center;
+    position: relative;
+    transform: translate(-50%);
+    width: 100%;
+    left: 50%;
+}
+
+.ps_logo2{
+
+    z-index: 4;
+    width: 69px;
+    position: absolute;
+    right: 55%;
+
+ 
+    
+
+
+
+}
+.ill_logo2{
+   right: 51%;
+   
+    z-index: 4;
+    width: 70px;
+    position: absolute;
+
+
+}
+
+.octane_logo2{
+    right: 47%;
+    z-index: 4;
+    position: absolute;
+    width: 70px;
+
+}
+.eqax{
+    position: relative;
+    top: -10%;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+}
+
+.cinema4d_logo{
+    z-index: 4;
+    position: absolute;
+    right: 43%;
+    width: 70px;
+
+}
+
+section#p3{
+    position: relative;
+    background: linear-gradient(#1C2541, #0B132B)
+
+
+}
+.ntice_img{
+    width: 100%;
+    position: relative;
+    top: -20%;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
+
+}
+
+.ntice{
+    z-index: 4;
+    width: 25%;
+    position: absolute;
+    transform: translate(-50%);
+    right: 55%;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
+
+}
+.ntice_tattoo{
+    z-index: 4;
+    position: absolute;
+    width: 33.1%;
+    transform: translate(-50%);
+    left: 80%;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
+}
+
+.ntice_svg{
+    position: absolute;
+    z-index: 4;
+    top: 12%;
+    transform: translate(-51%);
+    width:100vw;
+
+}
+.ntice_title{
+    z-index: 4;
+    position: relative;
+    top: 8%;
+}
+.logosp3{
+    z-index: 4;
+    position: relative;
+    top: 53%;
+
+}
+
+.ill_logo3{
+    z-index: 4;
+    top:83%;
+   
+   
+    z-index: 4;
+    width: 70px;
+    position: absolute;
+
+}
+
+
+.ps_logo3{
+    z-index: 4;
+
+    right: 51%;
+    z-index: 4;
+    width: 69px;
+    position: absolute;
+    transform: translate(-50%);
+ 
 }
