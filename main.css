@@ -1,5 +1,15 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat");
 
+/* ---- particles.js container ---- */ 
+#particles-js{
+    z-index: 1;
+    position:absolute; 
+    top: -5%;
+    width: 100%; 
+    height: 110%; 
+} 
+    /* ---- stats.js ---- */ 
+
 
 body{
     background: linear-gradient(#0B132B, #1C2541);
@@ -15,12 +25,14 @@ body{
 }
 
 .title_text{
+    z-index: 2;
     position: relative;
     text-align: center;
     top: 42.5vh;
 }
   
 .description{
+    z-index: 2;
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -31,6 +43,7 @@ body{
 }
 
 .models{
+    z-index: 3;
     position: absolute;
     
 
@@ -89,6 +102,7 @@ body{
 }
 
 .buttons_{
+    z-index: 2;
     position: relative;
     left: 50%;
     top:50vh
