@@ -709,13 +709,13 @@ section#p4{
 }
 
 .cn_title{
-    z-index: 4;
+    z-index: 4=5;
     position: relative;
     font-size: 3vw;
     color: #F0F0C9;
 }
 .cn_gif{
-    z-index: 5;
+    z-index: 4;
     position: relative;
     top: -4vh;
     box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
@@ -723,13 +723,13 @@ section#p4{
 }
 
 .cn_code:hover{
-    z-index: 3;
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
 
 }
 .cn_method:hover{
-    z-index: 3;
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
 
@@ -740,7 +740,7 @@ section#p4{
 
 .cn_method{
     position: absolute;
-    z-index: 4;
+    z-index: 5;
     font-size: 1vw;
     transform: translate(-50%, -50%);
     background: linear-gradient(to right,#1C2541, #0B132B);
@@ -761,7 +761,7 @@ section#p4{
 .cn_code{
     position: absolute;
     transform: translate(-50%, -50%);
-    z-index: 4;
+    z-index: 5;
     font-size: 1vw;
     background: linear-gradient(to right,#1C2541, #0B132B);
     box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
