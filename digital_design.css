@@ -90,13 +90,13 @@ section {
     border: 0px;
 }
 .Contact:hover{
-    z-index: 3;
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
 
 }
 .go_home:hover{
-    z-index: 3;
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
 }
