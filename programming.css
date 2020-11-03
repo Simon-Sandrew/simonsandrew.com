@@ -12,7 +12,7 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     font-family: Montserrat;
-    background: linear-gradient(#0B132B, #0B132B);
+    background: linear-gradient(to right,#0B132B,#1C2541);
     overflow-x: hidden;
     scroll-behavior: smooth;
     scroll-snap-type: y mandatory;
@@ -30,6 +30,7 @@ body{
 .programming_title_outline{
     z-index: 4;
     position: relative;
+    width: 60vw;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
@@ -73,15 +74,15 @@ section {
 
 section#method{
     position: relative;
-    background:linear-gradient( #0B132B 0%, #1C2541)
+    background: linear-gradient(to right,#0B132B,#1C2541);
 
 }
 
 .method_title{
     z-index: 4;
     position: absolute;
-    font-size: 5vw;
-    top: -13%;
+    font-size: 2vw;
+    top: 10%;
     color: #F0F0C9;
 
 }
@@ -190,18 +191,7 @@ section#method{
     z-index: 4;
     
 }
-.desc_meth{
-    text-align: center;
-    transform: translate(-50%, -50%);
-    left: 50%;
-    z-index: 4;
-    font-size: 2vw;
-    position: absolute;
-    top: 70%;
-    color: #F0F0C9;
 
-
-}
 .rect1{
     transform: translate(-50%, -50%);
     position: absolute;
@@ -312,7 +302,7 @@ section#method{
 
 section#p1{
     position: relative;
-    background: linear-gradient(#1C2541, #0B132B);
+    background: linear-gradient(to right,#0B132B,#1C2541);
     
 
 
@@ -453,7 +443,7 @@ section#p1{
 
 section#p2{
     position: relative;
-    background: linear-gradient( #0B132B, #1C2541);
+    background: linear-gradient(to right,#0B132B,#1C2541);
     
 
 
@@ -499,7 +489,7 @@ section#p2{
 
 section#p3{
     position: relative;
-    background: linear-gradient(#1C2541, #0B132B);
+    background: linear-gradient(to right,#0B132B,#1C2541);
 
 
 }
@@ -694,7 +684,7 @@ section#p3{
 section#p4{
     position: relative;
     width: 100vw;
-    background: linear-gradient(#0B132B, #1C2541) ;
+    background: linear-gradient(to right,#0B132B,#1C2541);
 
 
 }
@@ -790,7 +780,7 @@ section#p4{
 section#p5{
     position: relative;
     width: 100vw;
-    background: linear-gradient(#1C2541,#0B132B) ;
+    background: linear-gradient(to right,#0B132B,#1C2541);
 
 
 }
