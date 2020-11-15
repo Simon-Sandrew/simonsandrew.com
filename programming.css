@@ -564,6 +564,7 @@ section#p3{
     position: relative;
     box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
     left: 35vw;
+    width: 22vw;
 
 
 
@@ -575,6 +576,7 @@ section#p3{
     position: absolute;
     box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
     left: -35vw;
+    width: 22vw;
 
 
 
@@ -644,6 +646,7 @@ section#p3{
     position: relative;
     top:10vh;
     color: #F0F0C9;
+    font-size: 1vw;
 
 
 
@@ -717,6 +720,7 @@ section#p4{
 .cn_gif{
     z-index: 4;
     position: relative;
+    width: 30vw;
     top: -4vh;
     box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
 
