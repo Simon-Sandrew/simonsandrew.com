@@ -26,7 +26,7 @@ body{
     margin-top: 0px;
     margin-left: 0px;
     font-family: Montserrat;
-    background: linear-gradient(#0B132B, #0B132B);
+    background: linear-gradient(to right,#0B132B, #1C2541 );
     overflow-x: hidden;
 
 
@@ -143,6 +143,40 @@ section#p1{
 
 
 }
+
+
+.ink_cover{
+    position: relative;
+    width: 28vw;
+    top: -9%;
+    z-index: 3;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
+
+}
+
+.award_title{
+    position: relative;
+    top: -16%;
+    font-size: 1vw;
+    color: #F0F0C9;
+
+
+}
+.img_award{
+    width: 10vw;
+
+
+}
+
+.award{
+    position: absolute;
+    width: 7vw;
+    top: 65%;
+    right: 39%;
+    z-index: 5;
+
+}
 .db9k{
     position: relative;
     z-index: 4;
@@ -162,6 +196,24 @@ section#p2{
 .eqax{
     position: relative;
     z-index: 4;
+
+}
+
+.ps_logo4{
+    top:93%;
+    z-index: 4;
+    width: 69px;
+    position: absolute;
+    left: 46%;
+
+}
+.ill_logo4{
+    top:93%;
+   
+    right: 46%;
+    z-index: 4;
+    width: 70px;
+    position: absolute;
 
 }
 
@@ -317,4 +369,11 @@ section#p3{
     position: absolute;
     transform: translate(-50%);
  
+}
+
+section#p4{
+    position: relative;
+    background: linear-gradient(to right,#0B132B,#1C2541);
+
+
 }
