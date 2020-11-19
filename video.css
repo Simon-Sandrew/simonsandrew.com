@@ -31,126 +31,99 @@ body{
     font-family: Montserrat;
     display: inline-block;
 
-    
-    
+
 }
 
-.title_text{
-    z-index: 2;
+.video1{
+    z-index: 4;
     position: relative;
-    text-align: center;
-    top: 42.5vh;
+    top: -5vh;
+    box-shadow: 0 0px 100px 0 rgba(187, 168, 168, 0.25), 0 6px 20px 0;
+
 }
+h1{
+    font-size: 2vw;
+    top: 10%;
+    color: #F0F0C9;
+}
+
+.desc{
+    top: -5vh;
+    z-index: 5;
+    position: relative;
+    font-size: 1vw;
+
+    color: #F0F0C9;
+}
+
+.go_home{
+    position: fixed;
+    z-index: 6;
+    left:87%;
+    top:3%;
+    
+    transform: translate(50%);
+
+    font-size: 1vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+ 
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    border: 0px;
+
+
+}
+
+.Contact{
+
+    position: fixed;
+    z-index: 6;
+    left:87%;
+    top:9%;
+    
+    transform: translate(50%);
+
+    font-size: 1.0vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
   
-.description{
-    z-index: 2;
-    position: absolute;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: #F0F0C9;
-    font-family: Montserrat;
-
-
-}
-
-.models{
-    z-index: 3;
-    position: absolute;
-    
-
-
-
-
-
-}
-
-.digital_design{
-    z-index: 3;
-    top: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background: linear-gradient(to right,#1C2541, #0B132B);
     font-family: Montserrat;
     color: #F0F0C9;
     outline: 0;
     border-radius:12px;
     padding: 10px;
-    border: 0px;
+    padding-right: 17px;
 
-
-}
-
-.video{
-    z-index: 3;
-    top: 100px;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background: linear-gradient(to right,#1C2541, #0B132B);
-    font-family: Montserrat;
-    color: #F0F0C9;
-    outline: 0;
-    border-radius:12px;
-    padding: 10px;
-    border: 0px;
     
-}
-.programming{
-    z-index: 3;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background: linear-gradient(to right,#1C2541, #0B132B);
-    font-family: Montserrat;
-    color: #F0F0C9;
-    outline: 0;
-    border-radius:12px;
-    padding: 10px;
     border: 0px;
 
-
-
-
 }
-.digital_design:hover{
-    z-index: 1;
+.Contact:hover{
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
 
-
 }
-
-.programming:hover{
-    z-index: 1;
+.go_home:hover{
+    z-index: 5;
     box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
     transition-duration: 0.25s;
-    
-
-
-}
-.video:hover{
-    z-index: 1;
-    box-shadow: 0 0px 100px 0 #6FFFE9, 0 6px 20px 0 rgba(0,0,0,1);
-    transition-duration: 0.25s;
-    
-
 
 }
 
-.buttons_{
-    z-index: 2;
-    position: relative;
-    left: 50%;
-    top:50vh
-
-
-}
-
-
-.digital_design_shadow{
+.go_home_shadow{
+    position: fixed;
     z-index: 0;
-    top: 50px;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    left:87%;
+    top:3%;
+    
+    transform: translate(50%);
+
+    font-size: 1vw;
     background: linear-gradient(to right,#1C2541, #0B132B);
+ 
     font-family: Montserrat;
     color: #F0F0C9;
     outline: 0;
@@ -159,37 +132,30 @@ body{
     border: 0px;
     box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
 
+
 }
 
-.video_shadow{
+.Contact_shadow{
+
+    position: fixed;
     z-index: 0;
-    top: 100px;
-    transform: translate(-50%, -50%);
-    position: absolute;
+    left:87%;
+    top:9%;
+    
+    transform: translate(50%);
+
+    font-size: 1.0vw;
     background: linear-gradient(to right,#1C2541, #0B132B);
+  
     font-family: Montserrat;
-    color: #F0F0C9;
-    outline: 0;
+
     border-radius:12px;
     padding: 10px;
-    border: 0px;
+    padding-right: 17px;
     box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
 
-}
-.programming_shadow{
-    z-index: 0;
-    transform: translate(-50%, -50%);
-    position: absolute;
-    background: linear-gradient(to right,#1C2541, #0B132B);
-    font-family: Montserrat;
-    color: #F0F0C9;
-    outline: 0;
-    border-radius:12px;
-    padding: 10px;
+    
     border: 0px;
-
-
-    box-shadow: 0 0px 80px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
 
 }
 

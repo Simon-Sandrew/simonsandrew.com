@@ -947,3 +947,49 @@ top: -7vh;
     transition-duration: 0.25s;
 
 }
+
+.go_home_shadow{
+    position: fixed;
+    z-index: 4;
+    left:87%;
+    top:3%;
+    
+    transform: translate(50%);
+
+    font-size: 1vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+ 
+    font-family: Montserrat;
+    color: #F0F0C9;
+    outline: 0;
+    border-radius:12px;
+    padding: 10px;
+    border: 0px;
+    box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+
+}
+
+.Contact_shadow{
+
+    position: fixed;
+    z-index: 4;
+    left:87%;
+    top:9%;
+    
+    transform: translate(50%);
+
+    font-size: 1.0vw;
+    background: linear-gradient(to right,#1C2541, #0B132B);
+  
+    font-family: Montserrat;
+
+    border-radius:12px;
+    padding: 10px;
+    padding-right: 17px;
+    box-shadow: 0 0px 100px 0 rgb(0,0, 0), 0 6px 20px 0 rgba(0,0,0,0.15);
+
+    
+    border: 0px;
+
+}
