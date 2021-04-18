@@ -9,7 +9,6 @@
 
 body{
     background: linear-gradient(to right,#0B132B,#1C2541);
-    overflow-x: hidden;
     overflow-x: disabled;
     margin-top: 0;
     margin-left:0;
