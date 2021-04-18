@@ -1,7 +1,8 @@
 
 @font-face {
     font-family: Montserrat;
-    src: url("./Font/Montserrat-regular.ttf");
+    src: url("./Font/Montserrat-regular.ttf") format("truetype");
+
 }
 
 
