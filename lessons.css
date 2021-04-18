@@ -1,4 +1,22 @@
-@import url("https://fonts.googleapis.com/css?family=Montserrat");
+
+@font-face {
+    font-family: Montserrat;
+    src: url("./Font/Montserrat-regular.ttf");
+}
+
+
+
+body{
+    background: linear-gradient(to right,#0B132B,#1C2541);
+    overflow-x: hidden;
+    overflow-x: disabled;
+    margin-top: 0;
+    margin-left:0;
+    font-family: Montserrat;
+    display: inline-block;
+
+
+}
 #particles-js{
     z-index: -1;
     position:fixed; 
@@ -87,18 +105,6 @@ section{
 
 
 
-
-body{
-    background: linear-gradient(to right,#0B132B,#1C2541);
-    overflow-x: hidden;
-    overflow-x: disabled;
-    margin-top: 0;
-    margin-left:0;
-    font-family: Montserrat;
-    display: inline-block;
-
-
-}
 
 
 .quote{
