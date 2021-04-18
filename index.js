@@ -69,9 +69,9 @@ loader.load(
 
 var change_model_location = function(){
 		if(window.innerWidth <= 1200){
-			camera.position.set(0,-2,13);
+			camera.position.set(0,0,13);
 			if(carot){
-				carot.position.y = 6;
+				carot.position.y = 7;
 				carot.position.x = 0
 			}
 		 
@@ -84,12 +84,12 @@ var change_model_location = function(){
 		camera.position.set(0,0,13);
 		if(pentool){
 			pentool.position.x = window.innerWidth/150;
-			pentool.position.y = 2.5;
+			pentool.position.y = 0;
 			
 		}
 		if(carot) {
 			carot.position.x = -window.innerWidth/150;
-			carot.position.y = 2.5;
+			carot.position.y = 0;
 			
 		}
 	

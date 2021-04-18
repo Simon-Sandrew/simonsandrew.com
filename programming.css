@@ -30,7 +30,7 @@ body{
 .programming_title_outline{
     z-index: 4;
     position: relative;
-    width: 60vw;
+    width: 700px;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
