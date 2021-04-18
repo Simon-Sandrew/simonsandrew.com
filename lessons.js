@@ -22,7 +22,10 @@ function typeWriter() {
 var quotes = [
     "create games.", 
     "make a site.", 
-    "build apps."
+    "build an app.",
+    "create AI.",
+    "solve a problem.",
+    "explore math."
 ]
 
 
@@ -33,7 +36,7 @@ function getRandomInt(max) {
 
 function newQuote() {
   //set the typing text
-  txt = quotes[getRandomInt(3)];
+  txt = quotes[getRandomInt(6)];
   
   //reset the index
   i = 0;
