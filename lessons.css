@@ -6,8 +6,8 @@
 }
 
 @font-face {
-    font-family: Mont-alteratives;
-    src: url("./Font/Montserrat-Regular.otf") format("onetype");
+    font-family: Mont;
+    src: url("./Font/Montserrat-Regular.otf");
 
 }
 
@@ -27,7 +27,7 @@ body{
     background: linear-gradient(to right,#0B132B,#1C2541);
     overflow-x: hidden;
     max-width: 100%;
-    font-family: Montserrat, Mont-alternate;
+    font-family: Mont, Montserrat;
     display: inline-block;
 
 
