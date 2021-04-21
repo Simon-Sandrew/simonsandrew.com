@@ -20,7 +20,7 @@
 html{
     overflow-x: hidden;
     max-width: 100%;
-    scroll-snap-type: y mandatory;
+
 }
 body{
     margin:0;
@@ -34,7 +34,7 @@ body{
 
 }
 #particles-js{
-    z-index: -1;
+    z-index: -2;
     position:fixed; 
     top: 0%;
     width: 100%; 
@@ -59,7 +59,8 @@ section{
     scroll-snap-align: start;
   }
 #title{
-    
+   
+    z-index:10;
     top:80px;
 }
 #sub{
@@ -137,9 +138,7 @@ section{
     
 }
 #example_text{
-    right:50%;
     position: absolute;
-    top:0;
     border:2px solid #F0F0C9;
     padding:5px;
     font-size: 17px;
@@ -174,4 +173,111 @@ section{
     width:99%;
     height:100px;
     
+}
+
+
+
+.expla{
+    align-items: center;
+    top:0;
+    right:50%;
+    transform:translate(50%) ;
+    position: absolute;
+    width:300px;
+
+
+}
+#lesson{
+    border:2px solid #F0F0C9;
+    padding:5px;
+    font-size: 17px;
+    text-align: center;
+    border-radius: 10px;
+    color:#F0F0C9;
+    width:290px;
+}
+
+
+
+#s3{
+    position:absolute;
+    z-index: 2;
+}
+
+.expla div{
+    left:50%;
+    margin-top:10px;
+    margin-bottom:10px;
+    transform: translate(-50%);
+    position:relative;
+    align-items: center;
+    justify-content:center;
+    z-index: 3;
+    background-color:linear-gradient( #0B132B, #1C2541);
+    outline: 10px;
+    border-radius:25px;
+    padding: 10px;
+    width: 300px;
+    height:200px;
+    box-shadow: 0 0px 80px 0 rgb(0,0,0, 0.5);
+
+}
+
+
+.plan1 h2{
+    font-size: 70px;
+    color:#F0F0C9;
+    z-index: 3;
+    margin:0;
+    margin-top:40px;
+ 
+
+
+    
+}
+
+
+.plan1 h5{
+    color:#F0F0C9;
+    z-index: 3;
+    font-size: 20px;
+    margin: 0;
+ 
+
+}
+.plan1 h6{
+    color:#F0F0C9;
+    z-index: 3;
+    font-size: 10px;
+    margin: 0;
+
+
+}
+
+
+
+.plan2 h2{
+    font-size: 70px;
+    color:#F0F0C9;
+    z-index: 3;
+    margin:0;
+    margin-top:40px;
+
+
+    
+}
+
+
+.plan2 h5{
+    color:#F0F0C9;
+    z-index: 3;
+    font-size: 20px;
+    margin: 0;
+
+
+}
+
+
+#con{
+    height:140px;
 }
